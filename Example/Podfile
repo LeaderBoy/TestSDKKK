@@ -2,6 +2,10 @@ use_frameworks!
 
 platform :ios, '9.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/LeaderBoy/TestSDKKK.git'
+
+
 target 'TestSDKKK_Example' do
   pod 'TestSDKKK', :path => '../'
 
