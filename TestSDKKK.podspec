@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSDKKK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TestSDKKK.'
+  s.version          = '0.0.1'
+  s.summary          = 'We recommend including a description with your session to give some context when you list your sessions later. For example:'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+We recommend including a description with your session to give some context when you list your sessions later. For example:We recommend including a description with your session to give some context when you list your sessions later. For example:We recommend including a description with your session to give some context when you list your sessions later. For example:
                        DESC
 
   s.homepage         = 'https://github.com/LeaderBoy/TestSDKKK'
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TestSDKKK/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TestSDKKK' => ['TestSDKKK/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'TestSDKKK' => ['TestSDKKK/Assets/*.png']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'TestSDKKK/Classes/**/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'AFNetworking'
 end

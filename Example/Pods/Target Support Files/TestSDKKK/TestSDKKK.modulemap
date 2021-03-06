@@ -1,0 +1,6 @@
+framework module TestSDKKK {
+  umbrella header "TestSDKKK-umbrella.h"
+
+  export *
+  module * { export * }
+}
