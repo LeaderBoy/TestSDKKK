@@ -1,6 +1,6 @@
 {
   "name": "TestSDKKK",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "We recommend including a description with your session to give some context when you list your sessions later. For example:",
   "description": "We recommend including a description with your session to give some context when you list your sessions later. For example:We recommend including a description with your session to give some context when you list your sessions later. For example:We recommend including a description with your session to give some context when you list your sessions later. For example:",
   "homepage": "https://github.com/LeaderBoy/TestSDKKK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LeaderBoy/TestSDKKK.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,12 +21,11 @@
   "source_files": "TestSDKKK/Classes/**/*",
   "resource_bundles": {
     "TestSDKKK": [
-      "TestSDKKK/Assets/*.png"
+      "TestSDKKK/Assets/*.{xib,.png}"
     ]
   },
   "public_header_files": "TestSDKKK/Classes/**/*.h",
   "frameworks": "UIKit",
-  "vendored_frameworks": "TestSDKKK.framework",
   "dependencies": {
     "AFNetworking": [
 

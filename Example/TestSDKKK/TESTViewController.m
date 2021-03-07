@@ -7,7 +7,7 @@
 //
 
 #import "TESTViewController.h"
-
+#import <TestSDK.h>
 @interface TESTViewController ()
 
 @end

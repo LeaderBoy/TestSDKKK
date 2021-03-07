@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TestSDK : UIView
 -(void)testMessage;
+@property (weak, nonatomic) IBOutlet UISwitch *switchButton;
 @end
 
 NS_ASSUME_NONNULL_END

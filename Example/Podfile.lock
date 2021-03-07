@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - TestSDKKK (0.0.4):
+  - TestSDKKK (0.0.5):
     - AFNetworking
 
 DEPENDENCIES:
@@ -30,8 +30,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  TestSDKKK: fc9fef772f7f0a22567ab70cc6fc023b93ea6071
+  TestSDKKK: 2cd18410ca89e6ce2e67475c8505482ce405603c
 
-PODFILE CHECKSUM: add44eb77c7d2e4db53ba7fb6c88b8102d8fc48e
+PODFILE CHECKSUM: 8d31d7dd10701cc3f9d281ff8e802687f9b331d6
 
 COCOAPODS: 1.10.1

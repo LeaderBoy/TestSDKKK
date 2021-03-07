@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSDKKK'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'We recommend including a description with your session to give some context when you list your sessions later. For example:'
 
 # This description is used to generate tags and improve search results.
@@ -33,11 +33,10 @@ We recommend including a description with your session to give some context when
   s.source_files = 'TestSDKKK/Classes/**/*'
   
   s.resource_bundles = {
-     'TestSDKKK' => ['TestSDKKK/Assets/*.png']
+     'TestSDKKK' => ['TestSDKKK/Assets/*.{xib,.png}']
   }
 
   s.public_header_files = 'TestSDKKK/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.vendored_frameworks = 'TestSDKKK.framework'
   s.dependency 'AFNetworking'
 end

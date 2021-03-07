@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "NSBundle+SDK.h"
 #import "TestSDK.h"
+#import "UIView+ZYXIB.h"
 
 FOUNDATION_EXPORT double TestSDKKKVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestSDKKKVersionString[];
