@@ -65,7 +65,7 @@
 		B7F39268635100434BB1DECB /* Pods-TestSDKKK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKKK_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKKK_Example/Pods-TestSDKKK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB71E8553AD7B0C24959EFA2 /* Pods_TestSDKKK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDKKK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E959A00EA9935D582B81A6D1 /* Pods_TestSDKKK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDKKK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7B5AB2A49B981C138C04159 /* TestSDKKK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestSDKKK.podspec; path = ../TestSDKKK.podspec; sourceTree = "<group>"; };
+		F7B5AB2A49B981C138C04159 /* TestSDKKK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestSDKKK.podspec; path = ../TestSDKKK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FFAF47608EEEBE343CF8B7BD /* Pods-TestSDKKK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSDKKK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestSDKKK_Tests/Pods-TestSDKKK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
