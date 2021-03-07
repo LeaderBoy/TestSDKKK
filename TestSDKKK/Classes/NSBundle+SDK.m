@@ -6,11 +6,13 @@
 //
 
 #import "NSBundle+SDK.h"
+#import "TestSDK.h"
 
 @implementation NSBundle (SDK)
 + (instancetype)sdk_bundle
 {
-    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"TestSDKKK" ofType:@"bundle"];
+    NSLog(@"%@",[TestSDK class]);
+    NSString *bundlePath = [[NSBundle bundleForClass:[TestSDK class]] pathForResource:@"TestSDKKK" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     return bundle;
 }
