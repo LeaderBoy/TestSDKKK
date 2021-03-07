@@ -10,7 +10,7 @@
 @implementation NSBundle (SDK)
 + (instancetype)sdk_bundle
 {
-    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"TestSDKKK" ofType:@"bundle"];
+    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"TestSDKKK" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     return bundle;
 }

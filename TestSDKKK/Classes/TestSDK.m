@@ -7,6 +7,7 @@
 
 #import "TestSDK.h"
 #import "UIView+ZYXIB.h"
+#import "NSBundle+SDK.h"
 
 @implementation TestSDK
 
@@ -30,6 +31,8 @@
 
 -(void)setup {
     [self zy_loadFromXib];
+    
+    _imageView.image = [NSBundle sdk_pngImage:@"1"];
 }
 
 
