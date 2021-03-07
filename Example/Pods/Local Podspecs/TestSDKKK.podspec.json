@@ -1,6 +1,6 @@
 {
   "name": "TestSDKKK",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "summary": "We recommend including a description with your session to give some context when you list your sessions later. For example:",
   "description": "We recommend including a description with your session to give some context when you list your sessions later. For example:We recommend including a description with your session to give some context when you list your sessions later. For example:We recommend including a description with your session to give some context when you list your sessions later. For example:",
   "homepage": "https://github.com/LeaderBoy/TestSDKKK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LeaderBoy/TestSDKKK.git",
-    "tag": "0.0.5"
+    "tag": "0.0.8"
   },
   "platforms": {
     "ios": "9.0"
@@ -30,5 +30,8 @@
     "AFNetworking": [
 
     ]
+  },
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
   }
 }
