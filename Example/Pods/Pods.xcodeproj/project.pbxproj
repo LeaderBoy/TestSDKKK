@@ -32,6 +32,8 @@
 		52569CBD25F4F09B00AA60CB /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 52569CBB25F4F09B00AA60CB /* .gitkeep */; };
 		52569CBE25F4F09B00AA60CB /* TestSDK.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52569CBC25F4F09B00AA60CB /* TestSDK.xib */; };
 		52569CC525F4F0A900AA60CB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 52569CC425F4F0A900AA60CB /* test.png */; };
+		52569CEB25F4F60000AA60CB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 52569CC425F4F0A900AA60CB /* test.png */; };
+		52569CEC25F4F60000AA60CB /* TestSDK.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52569CBC25F4F09B00AA60CB /* TestSDK.xib */; };
 		558419C90B0169B1AE0AEEDFCE351662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F977CF4DF528796A7ADDA74650928FC /* Foundation.framework */; };
 		582E8E69E5689B66279209D19F9F3A69 /* Pods-TestSDKKK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3455E301F8B96D644C43F33C171996 /* Pods-TestSDKKK_Example-dummy.m */; };
 		6680E37C49D04B2F10A78361ABD7F56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F977CF4DF528796A7ADDA74650928FC /* Foundation.framework */; };
@@ -688,6 +690,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B17C379D52B6DE1EDC3DA4A135A58B4A /* TestSDKKK.bundle in Resources */,
+				52569CEB25F4F60000AA60CB /* test.png in Resources */,
+				52569CEC25F4F60000AA60CB /* TestSDK.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
