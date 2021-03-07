@@ -30,7 +30,6 @@
 		464506EE1114DDC24F1263D3C4F374B1 /* UIView+ZYXIB.m in Sources */ = {isa = PBXBuildFile; fileRef = B2279E2BDFA63A07D1D1D59D48ED1336 /* UIView+ZYXIB.m */; };
 		4992259A954F174FA8BDB394DB1C8F93 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D67C4903542379A45E2A9E3AD512A /* AFAutoPurgingImageCache.m */; };
 		4FCA4E8703DBF3D3FB7D5BA06229159D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0730868BFD57958E896FE402D758ACB /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52569D2D25F504C900AA60CB /* TestSDKKK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52569D2C25F504C900AA60CB /* TestSDKKK.framework */; };
 		558419C90B0169B1AE0AEEDFCE351662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F977CF4DF528796A7ADDA74650928FC /* Foundation.framework */; };
 		582E8E69E5689B66279209D19F9F3A69 /* Pods-TestSDKKK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E3455E301F8B96D644C43F33C171996 /* Pods-TestSDKKK_Example-dummy.m */; };
 		6680E37C49D04B2F10A78361ABD7F56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F977CF4DF528796A7ADDA74650928FC /* Foundation.framework */; };
@@ -136,7 +135,6 @@
 		488D6CFA5F83924062985DDC388F66AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4B93D780D83E013B9CF065117B6ABA80 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		50E6CBFBD0305264D5446D381452785B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		52569D2C25F504C900AA60CB /* TestSDKKK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestSDKKK.framework; path = ../../TestSDKKK.framework; sourceTree = "<group>"; };
 		536C3EED4FA306EE3A3CC917259D28D2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		55B52D940A1EA33A14B05EB20D791B44 /* TestSDKKK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSDKKK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F32CE7ED34A93BC9C5ED1F6E6CD00E /* Pods_TestSDKKK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSDKKK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,7 +215,6 @@
 				2068B3932D5BD6677ABB63F68FAFBC98 /* AFNetworking.framework in Frameworks */,
 				6680E37C49D04B2F10A78361ABD7F56C /* Foundation.framework in Frameworks */,
 				4629C76310625761BA28A7A17FF36103 /* UIKit.framework in Frameworks */,
-				52569D2D25F504C900AA60CB /* TestSDKKK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +297,6 @@
 		5992CF591E367B3E0721D8FB8016FE10 /* TestSDKKK */ = {
 			isa = PBXGroup;
 			children = (
-				52569D2C25F504C900AA60CB /* TestSDKKK.framework */,
 				A7384800110A322BBE9413B0F1DEDF76 /* NSBundle+SDK.h */,
 				CB67DA16E267FD1A415DFE043A006BE9 /* NSBundle+SDK.m */,
 				BE95D9C661A6FC04DB42E362E5DD8587 /* test.png */,
