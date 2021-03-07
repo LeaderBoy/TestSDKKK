@@ -6,7 +6,7 @@
 //
 
 #import "TestSDK.h"
-#import "UIView/UIView+ZYXIB.h"
+#import "UIView+ZYXIB.h"
 
 @implementation TestSDK
 
