@@ -11,11 +11,14 @@
 @implementation NSBundle (SDK)
 + (instancetype)sdk_bundle
 {
-    NSLog(@"%@",[TestSDK class]);
+//    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+//    NSString *path = [bundle pathForResource:@"TestSDKKK" ofType:@"framework"];
+//    NSBundle *SDKBundle = [NSBundle bundleWithPath:path];
+
     NSString *bundlePath = [[NSBundle bundleForClass:[TestSDK class]] pathForResource:@"TestSDKKK" ofType:@"bundle"];
-    
+
     NSLog(@"bundle:%@",bundlePath);
-    
+
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     return bundle;
 }

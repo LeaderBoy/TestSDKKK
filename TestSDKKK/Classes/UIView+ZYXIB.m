@@ -27,7 +27,12 @@
 }
 
 - (UIView *)zy_loadFromXib {
-    UIView *contentView = [[NSBundle sdk_bundle] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].lastObject;
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString *path = [bundle pathForResource:@"TestSDKKK" ofType:@"framework"];
+    NSBundle *SDKBundle = [NSBundle bundleWithPath:path];
+      
+    
+    UIView *contentView = [SDKBundle loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].lastObject;
     [self addSubview:contentView];
     [contentView zy_edgesToView:self];
     return contentView;
