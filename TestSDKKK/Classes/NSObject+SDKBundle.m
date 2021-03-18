@@ -26,14 +26,14 @@
 }
 
 -(UIImage *)sdk_bundleImage:(NSString *)name {
-    NSString *imageName = [NSString stringWithFormat:@"TestSDKKK.bundle/%@",name];
+    NSString *imageName = [NSString stringWithFormat:@"%@",name];
     UIImage *image = [UIImage imageNamed:imageName inBundle:[self sdk_bundle] compatibleWithTraitCollection:nil];
     NSLog(@"image:%@",image);
     return image;
 }
 
 - (NSBundle *)sdk_resource {
-    NSString *bundlePath = [[self sdk_bundle] pathForResource:@"TestSDKKK" ofType:@"bundle"];
+    NSString *bundlePath = [[self sdk_bundle] pathForResource:@"Versions/A/Resources/TestSDKKK" ofType:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     NSLog(@"resourceBundle:%@",bundle);
     return bundle;
