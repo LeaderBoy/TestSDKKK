@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSDKKK'
-  s.version          = '0.2.2'
+  s.version          = '0.2.3'
   s.summary          = 'We recommend including a description with your session to give some context when you list your sessions later. For example:'
 
 # This description is used to generate tags and improve search results.
