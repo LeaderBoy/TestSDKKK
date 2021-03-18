@@ -15,20 +15,34 @@
 //    NSString *path = [bundle pathForResource:@"TestSDKKK" ofType:@"framework"];
 //    NSBundle *SDKBundle = [NSBundle bundleWithPath:path];
 
-    NSString *bundlePath = [[NSBundle bundleForClass:[TestSDK class]] pathForResource:@"TestSDKKK" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString *path = [bundle pathForResource:@"TestSDKKK" ofType:@"framework"];
+    NSBundle *SDKBundle = [NSBundle bundleWithPath:path];
+    
+    NSLog(@"sdkBundle:%@",SDKBundle);
 
-    NSLog(@"bundle:%@",bundlePath);
+    return SDKBundle;
+    
+    
+//    NSString *bundlePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"TestSDKKK" ofType:@"bundle"];
+//
+//    NSLog(@"bundle:%@",bundlePath);
+//
+//    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+//    return bundle;
+}
 
++(NSBundle *)sdk_imageBundle {
+    NSString *bundlePath = [[self sdk_bundle] pathForResource:@"TestSDKKK" ofType:@"bundle"];
+    NSLog(@"imageBundle:%@",bundlePath);
     NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
     return bundle;
 }
 
 +(UIImage *)sdk_pngImage:(NSString *)name {
     UIImage *image = nil;
-    image = [UIImage imageWithContentsOfFile:[[self sdk_bundle] pathForResource:name ofType:@"png"]];
-    
+    image = [UIImage imageWithContentsOfFile:[[self sdk_imageBundle] pathForResource:name ofType:@"png"]];
     NSLog(@"图%@",image);
-
     return image;
 }
 
