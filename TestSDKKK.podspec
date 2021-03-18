@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestSDKKK'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'We recommend including a description with your session to give some context when you list your sessions later. For example:'
 
 # This description is used to generate tags and improve search results.
@@ -49,6 +49,7 @@ We recommend including a description with your session to give some context when
   #s.public_header_files = 'TestSDKKK/TestSDKKK.framework/Versions/A/Headers/*.h'
   
   #s.frameworks   = 'UIKit','Foundation',''
+  s.framework      = 'SystemConfiguration','MobileCoreServices'
 
   s.frameworks = 'UIKit'
   s.dependency 'AFNetworking'

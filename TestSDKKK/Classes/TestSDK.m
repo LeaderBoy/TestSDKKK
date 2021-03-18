@@ -7,7 +7,7 @@
 
 #import "TestSDK.h"
 #import "UIView+ZYXIB.h"
-#import "NSBundle+SDK.h"
+#import "NSObject+SDKBundle.h"
 
 @interface TestSDK ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
@@ -38,7 +38,7 @@
 -(void)setup {
     [self zy_loadFromXib];
     
-    _imageView.image = [NSBundle sdk_pngImage:@"test"];
+    _imageView.image = [self sdk_bundleImage:@"test"];
     
     _label.text = @"测试";
 }

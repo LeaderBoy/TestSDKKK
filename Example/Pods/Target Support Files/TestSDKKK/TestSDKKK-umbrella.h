@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "NSBundle+SDK.h"
+#import "NSObject+SDKBundle.h"
 #import "TestSDK.h"
 #import "UIView+ZYXIB.h"
 

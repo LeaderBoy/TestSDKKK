@@ -7,8 +7,8 @@
 //
 
 #import "UIView+ZYXIB.h"
-#import "NSBundle+SDK.h"
 #import <objc/runtime.h>
+#import "NSObject+SDKBundle.h"
 
 @implementation UIView (ZYXIB)
 -(void)zy_edgesToView:(UIView *)view {
@@ -27,12 +27,9 @@
 }
 
 - (UIView *)zy_loadFromXib {
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    NSString *path = [bundle pathForResource:@"TestSDKKK" ofType:@"framework"];
-    NSBundle *SDKBundle = [NSBundle bundleWithPath:path];
-      
-    
-    UIView *contentView = [SDKBundle loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].lastObject;
+    NSBundle * bundle = bundle = [self sdk_bundle];
+
+    UIView *contentView = [bundle loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].lastObject;
     [self addSubview:contentView];
     [contentView zy_edgesToView:self];
     return contentView;
